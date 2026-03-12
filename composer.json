@@ -1,0 +1,23 @@
+{
+    "name": "keedosn/ddd-training",
+    "description": "Sample app to train DDD",
+    "type": "project",
+    "require": {
+        "slim/slim": "^4.15"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.0",
+        "phpstan/phpstan": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Keedosn\\DddTraining\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Piotr Biernat",
+            "email": "piotr1biernat@gmail.com"
+        }
+    ]
+}
