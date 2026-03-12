@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
 
-use App\Application\Settings\Settings;
-use App\Application\Settings\SettingsInterface;
+use App\Core\Application\Settings\Settings;
+use App\Core\Application\Settings\SettingsInterface;
 use DI\ContainerBuilder;
 use Monolog\Logger;
 

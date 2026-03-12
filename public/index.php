@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-use App\Application\Handlers\HttpErrorHandler;
-use App\Application\Handlers\ShutdownHandler;
-use App\Application\ResponseEmitter\ResponseEmitter;
-use App\Application\Settings\SettingsInterface;
+use App\Core\Application\Handlers\HttpErrorHandler;
+use App\Core\Application\Handlers\ShutdownHandler;
+use App\Core\Application\ResponseEmitter\ResponseEmitter;
+use App\Core\Application\Settings\SettingsInterface;
 use DI\ContainerBuilder;
 use Slim\Factory\AppFactory;
 use Slim\Factory\ServerRequestCreatorFactory;

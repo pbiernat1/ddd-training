@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-use App\Application\Settings\SettingsInterface;
+use App\Core\Application\Settings\SettingsInterface;
 use DI\ContainerBuilder;
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;

@@ -1,10 +1,9 @@
 <?php
-
 declare(strict_types=1);
 
-namespace App\Application\Handlers;
+namespace App\Core\Application\Handlers;
 
-use App\Application\ResponseEmitter\ResponseEmitter;
+use App\Core\Application\ResponseEmitter\ResponseEmitter;
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Slim\Exception\HttpInternalServerErrorException;
 
